@@ -1,4 +1,4 @@
-# a1~b3は整数値であれば，Cとの条件以外は成約はなく，1通りでも組み合わせが用意できればYesになる
+# a1~b3は整数値であれば，Cとの条件以外は制約はなく，1通りでも組み合わせが用意できればYesになる
 # したがって，Cとの条件を満たさないものをフィルタリングする考えでいく
 from itertools import product
  
@@ -14,8 +14,6 @@ if sum_cmat % 3 != 0:
     print('No')
     exit()
  
-# 直積 product
-# Ref: https://python.civic-apps.com/itertools-combinations/
 for i in range(1, 3):
     col1 = cmat[i][0] - cmat[i-1][0]
     col2 = cmat[i][1] - cmat[i-1][1]
