@@ -9,3 +9,7 @@
 ### 大規模データ 
 - ビッグデータを支える技術
 - データ指向アプリケーションデザイン
+
+### アルゴリズムとデータ構造
+
+- [アルゴリズム実技検定　公式テキスト エントリー～中級編](https://github.com/ababa831/my_learning_history/tree/master/PAST)
