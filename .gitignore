@@ -102,3 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+pyproject.toml
+.vscode/
+.DS_Store
